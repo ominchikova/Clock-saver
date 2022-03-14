@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Corinthia', cursive;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100%;
+	display:flex;
+	justify-content: center;
+
+	
+	/* background-image: url(./assets/photo-1512453979798-5ea266f8880c.jpg); */
+	/* background-size: cover;
+	background-position: center; */
+
+	
+	
+}
+.wrapper {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+	
+	
+
+	
+}
+.display__welcome {
+	font-weight: 700;
+	font-size: 54px;
+	line-height: 120%;
+}
+.display__clock {
+	font-weight: 700;
+	font-size: 138px;
+	line-height: 120%;
+}
+.day__night{
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 120%;
+	color: gold;
+	
+}
