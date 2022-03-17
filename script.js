@@ -30,14 +30,14 @@ const setBg = () => {
   if (hour < 12) {
     greeting.textContent = "Good Morning,";
     document.body.style.backgroundImage =
-      'url("./assets/2013_10_956_2_01.jpg")';
+      'url("./assets/morning.jpg")';
   } else if (hour < 18) {
     greeting.textContent = "Good Afternoon,";
     document.body.style.backgroundImage =
-      'url("./assets/2013_10_956_2_01.jpg")';
+      'url("./assets/afternoon.jpg")';
   } else {
-    greeting.textContent = "Good Evening,";
-    document.body.style.backgroundImage = 'url("./assets/2013_10_956_2_01.jpg")';
+    greeting.textContent = "Good Night,";
+    document.body.style.backgroundImage = 'url("./assets/night.jpg")';
   }
 };
 
